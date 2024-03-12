@@ -1,19 +1,10 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+# OPEND - FULLSTACK/WEB3 APPLICATION
+By: Ivan Del Rio
 
-The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
-you may not use this project except in compliance with the License.
-You may obtain a copy of the License at
+A WEB3 application utilizing React/Motoko to display a proficiency in both languages.
+Users are capable of Buying, Selling, and Minting NFTs. The App is fully dynamic and custom to each user.
+Part of the UDEMY FullStack 2024 certification
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-Here is the TL;DR version of the above licence:
-https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 
 # To Install and Run the Project
 
@@ -107,7 +98,7 @@ dfx canister call opend mint '(vec {137; 80; 78; 71; 13; 10; 26; 10; 0; 0; 0; 13
 2. List the item into mapOfListings:
 
 ```
-dfx canister call opend listItem '(principal "<REPLACE WITH NFT CANISTER ID>", 2)'
+dfx canister call opend listItem '(principal "qaa6y-5yaaa-aaaaa-aaafa-cai", 2)'
 ```
 
 3. Get OpenD canister ID:
@@ -119,7 +110,7 @@ dfx canister id opend
 4. Transfer NFT to OpenD:
 
 ```
-dfx canister call <REPLACE WITH NFT CANISTER ID> transferOwnership '(principal "<REPLACE WITH OPEND CANISTER ID>", true)'
+dfx canister call qaa6y-5yaaa-aaaaa-aaafa-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
 ```
 
 # Conneting to the Token Canister
