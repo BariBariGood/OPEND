@@ -6,7 +6,10 @@ Users are capable of Buying, Selling, and Minting NFTs. The App is fully dynamic
 Part of the UDEMY FullStack 2024 certification
 
 
-https://github.com/BariBariGood/OPEND/assets/108381046/9f1fd071-4e31-401b-9dab-15d53351947e
+
+https://github.com/BariBariGood/OPEND/assets/108381046/0adf28ee-fd58-40ac-929e-77b1641dfd57
+
+
 (Error is due to other user cannister not being deployed when attempting to transfer currency to seller; but yea it works.)
 
 
