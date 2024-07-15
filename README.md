@@ -3,7 +3,7 @@ By: Ivan Del Rio
 
 A WEB3 application utilizing React/Motoko to display a proficiency in both languages.
 Users are capable of Buying, Selling, and Minting NFTs. The App is fully dynamic and custom to each user.
-Part of the UDEMY FullStack 2024 certification.
+Part of the UDEMY FullStack 2024 certification. 
 
 
 
